@@ -31,5 +31,7 @@ RUN apk add --no-cache \
 			build-base \
 			ca-certificates \
 			bash
+			
+RUN apk add git			
 
 CMD ["/bin/ash"]
