@@ -30,7 +30,8 @@ RUN apk add --no-cache chromium udev ttf-freefont
 RUN apk add --no-cache \
 			build-base \
 			ca-certificates \
-			bash
+			bash \
+			gcc
 			
 RUN apk add git			
 
